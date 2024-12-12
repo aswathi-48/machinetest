@@ -1,0 +1,71 @@
+/* Container for the overall layout */
+.login-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+  }
+  
+  .left-side {
+    width: 75%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Right side - Form */
+  .right-side {
+    width: 35%;  
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-side form {
+    width: 100%;
+  }
+  
+  .right-side input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 14px;
+  }
+  
+  .forgot-password {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+  }
+  

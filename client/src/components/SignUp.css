@@ -1,0 +1,67 @@
+/* Container for the overall layout */
+.sign-up-container {
+    display: flex;
+    height: 100vh;
+    /* Full viewport height */
+    width: 100%;
+  }
+  
+  /* Left side - Image */
+  .left-side {
+    width: 65%;  /* Takes 65% of the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signup-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Right side - Form */
+  .right-side {
+    width: 35%;  /* Takes 35% of the width */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .right-side form {
+    width: 90%;
+  }
+  
+  .right-side input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 94%;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .success {
+    color: green;
+    font-size: 14px;
+  }
+  
